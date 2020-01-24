@@ -1,0 +1,9 @@
+{
+  "name": "ci-starterkit",
+  "version": "0.1.0",
+  "description": "codeigniter starterkit documentation",
+  "main": "index.js",
+  "repository": "https://github.com/codeigniter-id/ci-starterkit.git",
+  "author": "puterakahif <puterakahfi@gmail.com>",
+  "license": "MIT"
+}
