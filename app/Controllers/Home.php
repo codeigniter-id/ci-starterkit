@@ -9,4 +9,9 @@ class Home extends BaseController
 
 	//--------------------------------------------------------------------
 
+	public function stisla()
+	{
+		print_r('sfsf');
+		return view('stisla');
+	}
 }
