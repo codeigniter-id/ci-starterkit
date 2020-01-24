@@ -5,5 +5,10 @@
   "main": "index.js",
   "repository": "https://github.com/codeigniter-id/ci-starterkit.git",
   "author": "puterakahif <puterakahfi@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
 }
