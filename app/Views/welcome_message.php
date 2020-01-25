@@ -1,4 +1,4 @@
-<?php  echo $this->extend('Stisla/Layout/sidebar') ?>
+<?php  echo $this->extend('Stisla/Layout/Default') ?>
 
 
 

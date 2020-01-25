@@ -2,16 +2,12 @@
 
 class Home extends BaseController
 {
-	public function index()
-	{
-		return view('welcome_message');
-	}
+
 
 	//--------------------------------------------------------------------
 
-	public function stisla()
+	public function index()
 	{
-		print_r('sfsf');
-		return view('stisla');
+		return view('welcome_message');
 	}
 }
