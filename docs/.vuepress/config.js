@@ -26,9 +26,6 @@ module.exports = {
         docsDir: 'docs',
         // if your docs are in a specific branch (defaults to 'master'):
         docsBranch: 'master',
-
-
-
         locales: {
             // The key is the path for the locale to be nested under.
             // As a special case, the default locale can use '/' as its path.
@@ -37,20 +34,21 @@ module.exports = {
                 title: 'VuePress',
                 description: 'Vue-powered Static Site Generator'
             },
+
+
             '/id/': {
                 lang: 'id-Bahasa',
                 title: 'Codeigniter Starterkit',
                 description: 'Codeigniter Starterkit',
                 nav: [
+                    { text: 'Home', link: '/' },
                     { text: 'Facebook Group', link: 'https://www.facebook.com/groups/codeigniter.id' }
                 ],
                 algolia: {},
                 sidebar: [
                     {
                         title: 'Setup dan Instalasi',   // required
-                        path: '/foo/',      // optional, which should be a absolute path.
-                        collapsable: false, // optional, defaults to true
-                        sidebarDepth: 1,    // optional, defaults to 1
+                        path: '/setup/',      // optional, which should be a absolute path.
                         children: [
                             '/'
                         ]
@@ -58,17 +56,34 @@ module.exports = {
                     {
                         title: 'Template dan Layouting',   // required
                         path: '/foo/',      // optional, which should be a absolute path.
-                        collapsable: false, // optional, defaults to true
-                        sidebarDepth: 1,    // optional, defaults to 1
                         children: [
                             '/'
                         ]
                     },
                     {
+                        title: 'Deployment',   // required
+                        path: '/foo/',      // optional, which should be a absolute path.
+                        children: [
+                            '/'
+                        ]
+                    },
+                    {
+                        title: 'Testing',   // required
+                        path: '/foo/',      // optional, which should be a absolute path.
+                        children: [
+                            '/'
+                        ]
+                    },
+                    {
+                        title: 'Advanced Topic',   // required
+                        path: '/id/advanced/',      // optional, which should be a absolute path.
+                        children: [
+                            '/id/advanced/ADR'
+                        ]
+                    },
+                    {
                         title: 'Troubleshooting',   // required
                         path: '/foo/',      // optional, which should be a absolute path.
-                        collapsable: false, // optional, defaults to true
-                        sidebarDepth: 1,    // optional, defaults to 1
                         children: [
                             '/'
                         ]
