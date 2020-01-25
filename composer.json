@@ -1,7 +1,7 @@
 {
-    "name": "codeigniter4/framework",
+    "name": "codeigniter-id/starterkit",
     "type": "project",
-    "description": "The CodeIgniter framework v4",
+    "description": "Codeigniter Starterkit",
     "homepage": "https://codeigniter.com",
     "license": "MIT",
     "require": {
@@ -11,24 +11,21 @@
         "kint-php/kint": "^2.1",
         "psr/log": "^1.1",
         "laminas/laminas-escaper": "^2.6",
-		"lonnieezell/vulcan": "dev-develop",
-	    "myth/auth":"dev-develop"
+        "lonnieezell/vulcan": "dev-develop",
+        "myth/auth": "dev-develop",
+        "codeigniter4/framework": "dev-master"
     },
     "require-dev": {
-        "codeigniter4/codeigniter4-standard": "^1.0",
         "mikey179/vfsstream": "1.6.*",
         "phpunit/phpunit": "^7.0",
         "squizlabs/php_codesniffer": "^3.3"
     },
     "autoload": {
-        "psr-4": {
-            "CodeIgniter\\": "system/"
-        }
+        "psr-4": {}
     },
     "scripts": {
         "post-update-cmd": [
-            "@composer dump-autoload",
-            "CodeIgniter\\ComposerScripts::postUpdate"
+            "@composer dump-autoload"
         ]
     },
     "support": {

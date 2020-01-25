@@ -1,3 +1,4 @@
+Learn more or give us feedback
 <?php  echo $this->extend('Stisla/Layout/Default') ?>
 
 
