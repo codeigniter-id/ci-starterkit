@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
-  <title>Layout &rsaquo; Default &mdash; Stisla</title>
+  <title>Codeigniter 4 Starterkit</title>
 
   <!-- General CSS Files -->
   <link rel="stylesheet" href="<?php echo base_url('stisla/modules/bootstrap/css/bootstrap.min.css'); ?>">
@@ -12,8 +12,8 @@
   <!-- CSS Libraries -->
 
   <!-- Template CSS -->
-  <link rel="stylesheet" href="<?php echo base_url('stisla/css/style.css');?>">
-  <link rel="stylesheet" href="<?php echo base_url('stisla/css/components.css');?>">
+  <link rel="stylesheet" href="<?php echo base_url('stisla/css/style.css'); ?>">
+  <link rel="stylesheet" href="<?php echo base_url('stisla/css/components.css'); ?>">
 <!-- Start GA -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-94034622-3"></script>
 <script>
@@ -249,10 +249,10 @@
       <div class="main-sidebar sidebar-style-2">
         <aside id="sidebar-wrapper">
           <div class="sidebar-brand">
-            <a href="index.html">Stisla</a>
+            <a href="index.html">CI Starterkit</a>
           </div>
           <div class="sidebar-brand sidebar-brand-sm">
-            <a href="index.html">St</a>
+            <a href="index.html">CSK</a>
           </div>
           <ul class="sidebar-menu">
             <li class="menu-header">Dashboard</li>
@@ -349,19 +349,19 @@
             <li class="dropdown">
               <a href="#" class="nav-link has-dropdown"><i class="far fa-user"></i> <span>Auth</span></a>
               <ul class="dropdown-menu">
-                <li><a href="auth-forgot-password.html">Forgot Password</a></li> 
-                <li><a href="auth-login.html">Login</a></li> 
-                <li><a href="auth-register.html">Register</a></li> 
-                <li><a href="auth-reset-password.html">Reset Password</a></li> 
+                <li><a href="auth-forgot-password.html">Forgot Password</a></li>
+                <li><a href="auth-login.html">Login</a></li>
+                <li><a href="auth-register.html">Register</a></li>
+                <li><a href="auth-reset-password.html">Reset Password</a></li>
               </ul>
             </li>
             <li class="dropdown">
               <a href="#" class="nav-link has-dropdown"><i class="fas fa-exclamation"></i> <span>Errors</span></a>
               <ul class="dropdown-menu">
-                <li><a class="nav-link" href="errors-503.html">503</a></li> 
-                <li><a class="nav-link" href="errors-403.html">403</a></li> 
-                <li><a class="nav-link" href="errors-404.html">404</a></li> 
-                <li><a class="nav-link" href="errors-500.html">500</a></li> 
+                <li><a class="nav-link" href="errors-503.html">503</a></li>
+                <li><a class="nav-link" href="errors-403.html">403</a></li>
+                <li><a class="nav-link" href="errors-404.html">404</a></li>
+                <li><a class="nav-link" href="errors-500.html">500</a></li>
               </ul>
             </li>
             <li class="dropdown">
@@ -396,6 +396,7 @@
       <!-- Main Content -->
       <div class="main-content">
         <section class="section">
+
           <div class="section-header">
             <h1>Default Layout</h1>
             <div class="section-header-breadcrumb">
@@ -406,6 +407,9 @@
           </div>
 
           <div class="section-body">
+
+
+
             <h2 class="section-title">This is Example Page</h2>
             <p class="section-lead">This page is just an example for you to create your own page.</p>
             <div class="card">
@@ -413,6 +417,11 @@
                 <h4>Example Card</h4>
               </div>
               <div class="card-body">
+
+
+
+        <?php echo $this->renderSection('content') ?>
+
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -432,7 +441,7 @@
           Copyright &copy; 2018 <div class="bullet"></div> Design By <a href="https://nauval.in/">Muhamad Nauval Azhar</a>
         </div>
         <div class="footer-right">
-          
+
         </div>
       </footer>
     </div>
@@ -440,19 +449,19 @@
 
   <!-- General JS Scripts -->
   <script src="<?php echo base_url('stisla/modules/jquery.min.js'); ?>"></script>
-  <script src="<?php echo base_url('stisla/modules/popper.js');?>"></script>
-  <script src="<?php echo base_url('stisla/modules/tooltip.js');?>"></script>
-  <script src="<?php echo base_url('stisla/modules/bootstrap/js/bootstrap.min.js');?>"></script>
-  <script src="<?php echo base_url('stisla/modules/nicescroll/jquery.nicescroll.min.js');?>"></script>
-  <script src="<?php echo base_url('stisla/modules/moment.min.js');?>"></script>
-  <script src="<?php echo base_url('stisla/js/stisla.js');?>"></script>
-  
+  <script src="<?php echo base_url('stisla/modules/popper.js'); ?>"></script>
+  <script src="<?php echo base_url('stisla/modules/tooltip.js'); ?>"></script>
+  <script src="<?php echo base_url('stisla/modules/bootstrap/js/bootstrap.min.js'); ?>"></script>
+  <script src="<?php echo base_url('stisla/modules/nicescroll/jquery.nicescroll.min.js'); ?>"></script>
+  <script src="<?php echo base_url('stisla/modules/moment.min.js'); ?>"></script>
+  <script src="<?php echo base_url('stisla/js/stisla.js'); ?>"></script>
+
   <!-- JS Libraies -->
 
   <!-- Page Specific JS File -->
-  
+
   <!-- Template JS File -->
-  <script src="<?php echo base_url('stisla/js/scripts.js');?>"></script>
-  <script src="<?php echo base_url('stisla/js/custom.js');?>"></script>
+  <script src="<?php echo base_url('stisla/js/scripts.js'); ?>"></script>
+  <script src="<?php echo base_url('stisla/js/custom.js'); ?>"></script>
 </body>
 </html>
