@@ -10,7 +10,9 @@
         "ext-intl": "*",
         "kint-php/kint": "^2.1",
         "psr/log": "^1.1",
-        "laminas/laminas-escaper": "^2.6"
+        "laminas/laminas-escaper": "^2.6",
+		"lonnieezell/vulcan": "dev-develop",
+	    "myth/auth":"dev-develop"
     },
     "require-dev": {
         "codeigniter4/codeigniter4-standard": "^1.0",
