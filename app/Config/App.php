@@ -65,6 +65,7 @@ class App extends BaseConfig
 	*/
 	public $defaultLocale = 'en';
 
+
 	/*
 	|--------------------------------------------------------------------------
 	| Negotiate Locale
