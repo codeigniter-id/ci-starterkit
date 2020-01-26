@@ -1,0 +1,16 @@
+version: '3.1'
+services:
+  database:
+    container_name: starterkit
+    image: mariadb
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - "3320:3306"    
+
+  # NETWORK 
+networks:
+  default:
+    external:
+       name: test_bridge
+

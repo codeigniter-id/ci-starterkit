@@ -112,3 +112,4 @@ class Database extends \CodeIgniter\Database\Config
 	//--------------------------------------------------------------------
 
 }
+
